@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    margin: 50px auto;
+    
+    
+}
+.App #pincode1{
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid;
+    
+}
+.pintext{
+color:rgb(195, 93, 93);
+font-weight: 600;
+font-size: 2rem;
+
+
+
+
+    /* width: 72.9rem;
+height: 41px;
+top: 33px;
+left: 41px;
+gap: 0px;
+opacity: 0px; */
+
+}
+#pincode{
+    border: 2px solid ;
+   border-radius: 6px; 
+   border-color: black;
+   
+}
+.App form button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+.loader{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#flbypo{
+ 
+}
